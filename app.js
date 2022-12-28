@@ -26,5 +26,3 @@ const pokemonPromises = generatePokemonPromises()
 Promise.all(pokemonPromises)
     .then(generateHTML)
     .then(insertPokemonsIntoPage)
-
-// 22:18
